@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Linked-In",
+        "color": "red",
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/caio-marchiorato-de-gouveia-a16674168/"
+	},
+    {
+        "name": "Instagram",
+        "color": "red",
+        "icon": "instagram",
+        "url": "https://www.instagram.com/marchioratocaio/?hl=pt-br"
+	}
+]

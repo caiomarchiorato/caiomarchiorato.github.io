@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Caio Marchiorato de Gouveia </title>
+    <meta name="keywords" content="Breeding, Agronomy, Sthatistics">
+    <meta name="description" content="I'm a graduate student in Agronomy passionate about plant breeding.">
+    <meta name="author" content="Caio Marchiorato de Gouveia">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/index.css" media="screen,projection" />
+    <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <!-- Put your favicon here! (I highly suggest realfavicongenerator.net) -->
+    <meta name="theme-color" content="#f5f6fa">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:500,600,700" rel="stylesheet">
+    <!-- If you want Google Analytics, do some Google searching, and pop it here. -->
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body style="background-color: #f5f6fa">
+    <div>
+        <div class="row">
+            <div id="profileColumn" class="col s12 l4 center">
+                <img id="profileImage" src="./images/perfil.jpg" class="z-depth-3 circle responsive-img" />
+                
+                <h2 id="heroName" class="center-align">Caio Marchiorato de Gouveia</h2>
+                <h4 id="description" class="center-align"> I'm a graduate student in Agronomy passionate about plant breeding.</h4>
+
+                <div id="socialLinkSection">
+                    <section class="tab">
+                        <div id="socialLinkContent">
+
+                        </div>
+                    </section>
+                </div>
+                
+
+                <a id="contactButton" class="waves-effect waves-grey btn-flat" href="mailto:cmarchiorato@gmail.com"><p>Contact Me</p></a>
+                
+            </div>
+            
+            <div id="portfolioColumn" class="col s12 m12 l8">
+                
+                <div id="portfolioTitle">
+                    <p id="portfolioText">Studies</p>
+
+                    <p id="firstCategoryText">Use of RGB images and NIR spectroscopy in modeling looking for discrimination of clones in sugarcane families</p>
+                </div>
+                <div id="Texto pibic2"><font size="5">This project's main contributions are the possibility of a better evaluation of selection procedures between and within sugarcane families, aiming at their more conscious and applied use in breeding programs. In addition, it aims to contribute to the assessment of alternative forms of data collection aimed at optimizing the genetic material and the time available. These results may contribute to greater efficiency in the launch of new genetically improved sugarcane clones.</p></font>
+                    <center>
+                <img src="images/cana1.jpeg" width="400" height="250" />
+                    </center> </div>
+                <div id="Texto ufv"><font size="5">I currently work looking for ways to better assess and identify the needs for analysis and building a robust database. I took as a challenge the learning of the Python language, together with its packages like OpenCV, NumPy, MatPlotlib among the others, to support the search for my goal, already knowing the R software I believed it would be challenging but satisfactory. Initially, my team and I needed to obtain photos of the sugarcane clones, we went through a series of complications because we wanted to simulate field conditions. However, we could observe that the NIR and SPAD analyzes would not be influenced by the temperature difference between the field and any room in Ridesa's research complex. In the NIR we sought to reduce the energy dissipation that the device would cause by evaluating only 1 layer of leaf, and in the RGB photo we sought homogeneity of the lighting in the leaves.</p></font>
+                    <center>
+                <img src="images/rgb.jpeg" width="400" height="250" /><img src="images/nir.jpeg" width="400" height="250" />
+                    </center> </div>
+                <div id="Texto pibic2"><font size="5">The expectation was to sample the desired plants every month during January until July 2020, however with the humanitarian crisis that we are currently experiencing, due to the Covid-19 pandemic, we were prevented from continuing. However, I continue my analysis and studies on the data obtained. I tried to go deeper into the Python language while studying computer vision. First, I applied several color spaces to a test RGB image so I could see the differences they would cause. Color spaces can facilitate data analysis and manipulation as they often have only 1 brightness channel, as is the case with L * a * b, or only 1 color channel, whose HSV channel satisfies perfectly.</p></font>
+                    <center>
+                <img src="images/spacecolor.jpg" width="400" height="250" />
+                    </center> </div>
+                <div id="Texto pibic2"><font size="5">Through the studies in color space I was able to identify values ​​that in a simple code, together with the OpenCV package, processed the image in such a way that it kept only the leaf blade to apply in later analyzes.</p></font>
+                    <center>
+                <img src="images/thresholding.png" width="400" height="250" /><img src="images/allmasks1.jpg" width="400" height="250" />
+                    </center> </div>  
+                <div id="Texto pibic2"><font size="5">I was also able to create 2D graphics, in RGB space color:</p></font>
+                    <center>
+                <img src="images/grafico2d.jpg" width="400" height="250" />
+                    </center> </div>
+                <div id="Texto pibic2"><font size="5">And in 3D, in the HSV space (Hue; Saturation; Value) which would be able to observe the three channels of the color space and the quantity and values ​​of the pixels it contained in that image.</p></font>
+                    <center>
+                <img src="images/graf2.jpg" width="400" height="250" /><img src="images/graf11.jpg" width="400" height="250" />
+                    </center> </div>
+                <div id="Texto pibic2"><font size="5">From then on, I continue my studies investigating the possibilities of applying my data obtained in prediction models for discrimination of sugarcane families by RGB images and Near infrared spectroscopy analysis.</p></font>
+                    </div>
+                <div class="row" id="portfolioItemContainer">
+                    <!-- Your work cards are dynamically generated from items.json! -->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="jsG/materialize.min.js"></script>
+    <script type="text/javascript" src="jsG/index.js"></script>
+</body>
+
+</html>

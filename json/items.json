@@ -1,0 +1,45 @@
+[
+    
+    {
+        "name": "Searching...",
+        "description": "This project's main contributions are the possibility of a better evaluation of selection procedures between and within sugarcane families, aiming at their more conscious and applied use in breeding programs. In addition, it aims to contribute to the assessment of alternative forms of data collection aimed at optimizing the genetic material and the time available. These results may contribute to greater efficiency in the launch of new genetically improved sugarcane clones.",
+        "image": "images/rgbb.jpg",
+        "link": "/rgb.html"
+	},
+    {
+        "name": "Searching...",
+        "description": "The use of NIR makes it possible to evaluate large numbers of individuals, for many characters, during all stages of development of new cultivars, in a non-destructive way, with high accuracy and resulting in the absence of chemical waste analysis.",
+        "image": "images/pibic123.jpg",
+        "link": "/nir.html"
+	},
+    {
+        "name": "GEMEG",
+        "description": " During 2019 I founded and acted as director of development of the study group on  plant breeding at the Federal Univeristy of Viçosa where i developed a series of  projects in the academic enviroment seeking to bring students closer to the theme and to get closer to the scientific environment. I currently actas co-director assisting my sucessors.",
+        "image": "images/gemeg.jpg",
+        "link": "/gemeg.html"
+	},
+    {
+        "name": "LAPEA",
+        "description": "In the laboratory of analysis and research in applied statistics i work developing solution for scientific projects in a statistical environment. With a trained team and a above average advisor, i'm the youngest but still having several opportunities to complement my knowledge.",
+        "image": "images/lapea.jpg",
+        "link": "/lapea.html"
+	},
+    {
+        "name": "RIDESA",
+        "description": "The Program for Genetic Improvement of Sugarcane, PMGCA, of the Department of Phytotechnics of the Federal University of Viçosa, UFV, has as main objective to develop sugarcane cultivars through technical cooperation with sugar producing plants and distilleries, ethanol and energy in Minas Gerais. There i'm acting with PIBIC projects about analysis of the near infrared variability in sugar cane phenotyping and with discrimination of sugar cane families through the analysis of RGB images",
+        "image": "images/ridesa.jpg",
+        "link": "/ridesa.html"
+    },
+    {
+        "name": "Bean Breeding Program",
+        "description": "",
+        "image": "images/feijao1.jpg",
+        "link": "/feijao.html"
+	},
+    {
+        "name": "Federal University of Viçosa",
+        "description": "Federal University of Viçosa is currently number 1 in Agronomy in the university ranking in Brazil, considered the most traditional and one of the most desired.",
+        "image": "images/ufv.jpg",
+        "link": "/ufv.html"
+	}
+]
